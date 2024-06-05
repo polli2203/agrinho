@@ -19,3 +19,27 @@ moreInfoButtons.forEach(button => {
                 info = 'A biotecnologia no agronegócio envolve o desenvolvimento de sementes geneticamente modificadas para resistir a pragas e condições climáticas adversas, aumentando a produtividade e a segurança alimentar.';
                 break;
             case
+            // Função para alternar entre as seções do site
+function toggleSection(sectionId) {
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+        if (section.id === sectionId) {
+            section.classList.add('active');
+        } else {
+            section.classList.remove('active');
+        }
+    });
+}
+
+// Event listeners para os botões de navegação
+document.getElementById('more-info-btn').addEventListener('click', function() {
+    toggleSection('journey');
+});
+
+document.getElementById('btn-introduction').addEventListener('click', function() {
+    toggleSection('introduction');
+});
+
+document.getElementById('btn-technologies').addEventListener('click', function() {
+    toggleSection('technologies');
+});
