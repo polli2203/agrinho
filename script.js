@@ -35,4 +35,13 @@ moreInfoButtons.forEach(button => {
             case 'Agrotecnologia de Precisão':
                 info = 'A agrotecnologia de precisão utiliza drones e satélites para coletar dados sobre as plantações, permitindo uma aplicação precisa de insumos como fertilizantes e pesticidas, o que reduz o desperdício e protege o meio ambiente.';
                 break;
+            case 'Biotecnologia':
+                info = 'A biotecnologia no agronegócio envolve o desenvolvimento de sementes geneticamente modificadas para resistir a pragas e condições climáticas adversas, aumentando a produtividade e a segurança alimentar.';
+                break;
+            case 'Irrigação Inteligente':
+                info = 'Os sistemas de irrigação inteligente utilizam sensores para determinar a necessidade de água das plantas, contribuindo para uma utilização mais eficiente dos recursos hídricos e uma produção agrícola sustentável.';
+                break;
         }
+        alert(info);
+    });
+});
