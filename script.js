@@ -34,4 +34,5 @@ moreInfoButtons.forEach(button => {
                 break;
             case 'Agrotecnologia de Precisão':
                 info = 'A agrotecnologia de precisão utiliza drones e satélites para coletar dados sobre as plantações, permitindo uma aplicação precisa de insumos como fertilizantes e pesticidas, o que reduz o desperdício e protege o meio ambiente.';
-                break
+                break;
+        }
