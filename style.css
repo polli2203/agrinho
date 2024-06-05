@@ -25,7 +25,12 @@ main {
 }
 
 section {
-    margin-bottom: 2rem;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+section.active {
+    opacity: 1;
 }
 
 h2 {
@@ -43,65 +48,6 @@ h2 {
 
 button {
     display: block;
-    background: #2980b9;
-    color: white;
-    padding: 0.8rem 1.5rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-button:hover {
-    background: #2575a9;
-}
-
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-}
-
-/* Botões de informações */
-.btn-more-info {
-    background: #e74c3c;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    transition: background 0.3s;
-    margin-top: 1rem;
-}
-
-.btn-more-info:hover {
-    background: #c0392b;
-}
-
-/* Ícones */
-.fa-info-circle {
-    margin-right: 0.5rem;
-}
-
-/* Estilos para a transição de seções */
-section {
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-}
-
-section.active {
-    opacity: 1;
-}
-
-/* Animação para suavizar transição */
-@keyframes fade-in {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-/* Botões de navegação */
-.nav-button {
     background: #3498db;
     color: white;
     border: none;
@@ -113,6 +59,13 @@ section.active {
     font-size: 16px;
 }
 
-.nav-button:hover {
+button:hover {
     background: #2980b9;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
 }
