@@ -3,52 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do Campo para a Cidade</title>
+    <title>Campo e Cidade: Colhendo Oportunidades</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Do Campo para a Cidade</h1>
-        <p>Explorando as Tecnologias no Agronegócio</p>
+        <h1>Campo e Cidade: Colhendo Oportunidades</h1>
+        <img src="emblema.png" alt="Emblema Campo e Cidade" id="emblema">
     </header>
 
     <main>
-        <section id="introduction">
-            <h2>Introdução</h2>
-            <p>O agronegócio desempenha um papel crucial na economia brasileira. Este site explora a jornada dos produtos agrícolas do campo para a cidade, destacando as tecnologias que tornam isso possível.</p>
-            <button id="btn-introduction" class="nav-button">Introdução</button>
+        <section id="intro">
+            <p>Escolha uma área de estudo que possa ajudar a melhorar a qualidade do trabalho no campo:</p>
         </section>
 
-        <section id="technologies">
-            <h2>Tecnologias no Agronegócio</h2>
-            <div class="technology">
-                <h3>Máquinas Agrícolas Inteligentes</h3>
-                <p>Tratores e colheitadeiras equipados com sistemas GPS e sensores que aumentam a eficiência da colheita.</p>
-                <button class="btn-more-info">Mais Informações</button>
-            </div>
-            <div class="technology">
-                <h3>Agrotecnologia de Precisão</h3>
-                <p>Uso de drones e satélites para monitoramento de plantações, permitindo a aplicação precisa de insumos agrícolas.</p>
-                <button class="btn-more-info">Mais Informações</button>
-            </div>
-            <div class="technology">
-                <h3>Biotecnologia</h3>
-                <p>Desenvolvimento de sementes geneticamente modificadas para resistir a pragas e condições climáticas adversas.</p>
-                <button class="btn-more-info">Mais Informações</button>
-            </div>
-            <div class="technology">
-                <h3>Irrigação Inteligente</h3>
-                <p>Sistemas de irrigação automatizados que utilizam sensores de umidade do solo para otimizar o uso da água.</p>
-                <button class="btn-more-info">Mais Informações</button>
-            </div>
-            <button id="btn-technologies" class="nav-button">Tecnologias</button>
+        <section id="options">
+            <button onclick="showDescription('medicina')">Medicina</button>
+            <button onclick="showDescription('engenhariaAgricola')">Engenharia Agrícola</button>
+            <button onclick="showDescription('biologia')">Biologia</button>
+            <button onclick="showDescription('programacao')">Programação</button>
+            <button onclick="showDescription('gestaoAmbiental')">Gestão Ambiental</button>
         </section>
 
-        <section id="journey">
-            <h2>Do campo para a Cidade</h2>
-            <p>A jornada dos produtos agrícolas começa no campo, onde a tecnologia é utilizada para plantar, cultivar e colher. Em seguida, esses produtos são transportados para a cidade, onde são processados e distribuídos aos consumidores.</p>
-            <button id="more-info-btn" class="nav-button">Saiba Mais</button>
+        <section id="description">
+            <h2>Descrição da Área</h2>
+            <p id="descriptionText">Clique em uma área de estudo para saber mais.</p>
         </section>
     </main>
 
