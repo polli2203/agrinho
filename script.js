@@ -22,7 +22,8 @@ function showDescription(area) {
                     description = 'Gestão do Ambiental: é focado na integração entre atividades produtivas e a preservação ambiental, este curso aborda estratégias para a gestão sustentável de recursos naturais, incluindo os utilizados na agricultura. A Gestão Ambiental habilita profissionais para atuar em empresas, órgãos governamentais e ONGs, promovendo práticas agrícolas responsáveis e contribuindo para a conservação dos ecossistemas.';
                     break;
                     case 'programacao':
-            description = 'Programação: Tecnologia da informação para desenvolver soluções inovadoras que aumentem a eficiência do campo. A  programação é uma ferramenta poderosa para melhorar a agricultura, aumentar a produtividade e promover a inovação no campo.O curso de programação pode ter um impacto significativo no campo, especialmente na agricultura e em áreas rurais. É uma habilidade valiosa para quem deseja se destacar nesse setor. ';
+                 description = 'Programação: Tecnologia da informação para desenvolver soluções inovadoras que aumentem a eficiência do campo. A  programação é uma ferramenta poderosa para melhorar a agricultura, aumentar a produtividade e promover a inovação no campo.O curso de programação pode ter um impacto significativo no campo, especialmente na agricultura e em áreas rurais. É uma habilidade valiosa para quem deseja se destacar nesse setor. ';
+                 break;
         case 'tecnico em agropecuaria':
             description = 'Tecnico em Agropecuária: é um curso técnico que oferece uma formação mais prática e direcionada para atuação na agropecuária. Aborda temas como manejo de animais, cultivo de plantas e gestão rural. Ele proporciona habilidades específicas para o gerenciamento de atividades agropecuárias, contribuindo para o aumento da produtividade e aprimoramento das práticas no campo.';
             break;
