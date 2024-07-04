@@ -9,8 +9,8 @@ function showDescription(area) {
             case 'biologia':
                 description = 'Biologia: as Ciências Biológicas proporciona uma formação ampla nas ciências da vida, incluindo o estudo da ecologia, genética e biologia molecular, elementos cruciais para a compreensão e gestão dos ecossistemas agrícolas. Ele capacita o profissional a trabalhar em pesquisa, consultoria ambiental, educação e gestão de projetos relacionados à agricultura e ao agronegócio.';
                 break;
-                case 'engenharia agricola':
-                    description = 'Engenharia Agrícola: Engenharia aplicada ao campo para otimizar a produção e a tecnologia agrícola.';
+                case 'engenharia de alimentos':
+                    description = 'Engenharia de Alimentos: Este curso superior abrange o desenvolvimento e produção de alimentos, desde a matéria-prima até o produto final. Inclui estudos sobre processamento, conservação e controle de qualidade. O profissional atua em indústrias alimentícias, laboratórios de controle de qualidade e pesquisa, garantindo a segurança e qualidade dos produtos agrícolas.';
                     break;
             case 'engenharia florestal':
             description = 'Engenharia Florestal: este curso é focado na gestão sustentável de recursos naturais, especialmente florestas. Inclui estudo de silvicultura, manejo ambiental e conservação. Forma profissionais aptos a trabalhar na preservação e exploração responsável de recursos florestais, além de planejar e executar projetos de reflorestamento.';
