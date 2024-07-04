@@ -15,7 +15,7 @@ function showDescription(area) {
             case 'agronomia':
                 description = 'Agronomia: é voltado para o estudo e desenvolvimento de técnicas e práticas agrícolas. Aborda temas como cultivo de plantas, manejo do solo, produção animal e gestão rural. O curso fornece base teórica e prática, habilitando o profissional a gerenciar propriedades agrícolas, desenvolver projetos de produção e aplicar inovações tecnológicas no campo.';
                 break;
-        case 'engenhariaAgricola':
+        case 'engenharia agricola':
             description = 'Engenharia Agrícola: Engenharia aplicada ao campo para otimizar a produção e a tecnologia agrícola.';
             break;
         case 'biologia':
@@ -24,9 +24,12 @@ function showDescription(area) {
         case 'programacao':
             description = 'Programação: Tecnologia da informação para desenvolver soluções inovadoras que aumentem a eficiência do campo.';
             break;
-        case 'gestaoAmbiental':
-            description = 'Gestão Ambiental: Planejamento e manejo sustentável dos recursos naturais para a proteção do meio ambiente.';
+        case 'gestao ambiental':
+            description = 'Focado na integração entre atividades produtivas e a preservação ambiental, este curso aborda estratégias para a gestão sustentável de recursos naturais, incluindo os utilizados na agricultura. A Gestão Ambiental habilita profissionais para atuar em empresas, órgãos governamentais e ONGs, promovendo práticas agrícolas responsáveis e contribuindo para a conservação dos ecossistemas.';
             break;
+            case 'gestao do agronegocio':
+                description = 'Focado em aspectos gerenciais do agronegócio, este curso aborda temas como marketing, logística, gestão financeira e estratégias para o setor. A formação prepara profissionais para atuar em cargos de gestão e administração em empresas agrícolas, cooperativas, agroindústrias e organizações relacionadas ao agronegócio.';
+                break;
         default:
             description = 'Clique em uma área de estudo para saber mais.';
     }
