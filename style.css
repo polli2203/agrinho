@@ -7,21 +7,21 @@ body {
     padding: 0;
 }
 
-header {
+.cabecalho{
     background-color: #a3d9a5;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+.titulo{ 
     color: #4CAF50;
 }
 
-main {
+.escolhas{
     padding: 20px;
 }
 
-section#options button {
+.option{
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -32,11 +32,11 @@ section#options button {
     transition: background-color 0.3s;
 }
 
-section#options button:hover {
+.option:hover {
     background-color: #45a049;
 }
 
-section#description {
+.description {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;

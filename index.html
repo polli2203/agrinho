@@ -7,25 +7,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Campo e Cidade: Colhendo Oportunidades</h1>
-        <img src="emblema.png" alt="Emblema Campo e Cidade" id="emblema">
+    <header class="cabecalho">
+        <h1 class="titulo">Campo e Cidade: Colhendo Oportunidades</h1>
+
     </header>
 
-    <main>
+    <main class="escolhas">
         <section id="intro">
             <p>Escolha uma área de estudo que possa ajudar a melhorar a qualidade do trabalho no campo:</p>
         </section>
 
         <section id="options">
-            <button onclick="showDescription('medicina')">Medicina</button>
-            <button onclick="showDescription('engenhariaAgricola')">Engenharia Agrícola</button>
-            <button onclick="showDescription('biologia')">Biologia</button>
-            <button onclick="showDescription('programacao')">Programação</button>
-            <button onclick="showDescription('gestaoAmbiental')">Gestão Ambiental</button>
+            <button class="option" onclick="showDescription('medicina')">Medicina</button>
+            <button class="option" onclick="showDescription('engenhariaAgricola')">Engenharia Agrícola</button>
+            <button class="option" onclick="showDescription('biologia')">Biologia</button>
+            <button class="option" onclick="showDescription('programacao')">Programação</button>
+            <button class="option" onclick="showDescription('gestaoAmbiental')">Gestão Ambiental</button>
         </section>
 
-        <section id="description">
+        <section id="description" class="description">
             <h2>Descrição da Área</h2>
             <p id="descriptionText">Clique em uma área de estudo para saber mais.</p>
         </section>
