@@ -19,7 +19,7 @@ function showDescription(area) {
                 description = 'Focado em aspectos gerenciais do agronegócio, este curso aborda temas como marketing, logística, gestão financeira e estratégias para o setor. A formação prepara profissionais para atuar em cargos de gestão e administração em empresas agrícolas, cooperativas, agroindústrias e organizações relacionadas ao agronegócio.';
                 break;
                 case 'gestao ambiental':
-                    description = 'Focado na integração entre atividades produtivas e a preservação ambiental, este curso aborda estratégias para a gestão sustentável de recursos naturais, incluindo os utilizados na agricultura. A Gestão Ambiental habilita profissionais para atuar em empresas, órgãos governamentais e ONGs, promovendo práticas agrícolas responsáveis e contribuindo para a conservação dos ecossistemas.';
+                    description = 'Gestão do Agronegócio: é focado na integração entre atividades produtivas e a preservação ambiental, este curso aborda estratégias para a gestão sustentável de recursos naturais, incluindo os utilizados na agricultura. A Gestão Ambiental habilita profissionais para atuar em empresas, órgãos governamentais e ONGs, promovendo práticas agrícolas responsáveis e contribuindo para a conservação dos ecossistemas.';
                     break;
                     case 'programacao':
             description = 'Programação: Tecnologia da informação para desenvolver soluções inovadoras que aumentem a eficiência do campo.';
