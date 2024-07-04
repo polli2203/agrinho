@@ -16,10 +16,10 @@ function showDescription(area) {
             description = 'Engenharia Florestal: este curso é focado na gestão sustentável de recursos naturais, especialmente florestas. Inclui estudo de silvicultura, manejo ambiental e conservação. Forma profissionais aptos a trabalhar na preservação e exploração responsável de recursos florestais, além de planejar e executar projetos de reflorestamento.';
             break;
             case 'gestao do agronegocio':
-                description = 'Focado em aspectos gerenciais do agronegócio, este curso aborda temas como marketing, logística, gestão financeira e estratégias para o setor. A formação prepara profissionais para atuar em cargos de gestão e administração em empresas agrícolas, cooperativas, agroindústrias e organizações relacionadas ao agronegócio.';
+                description = 'Gestão do Agronegócio: é focado em aspectos gerenciais do agronegócio, este curso aborda temas como marketing, logística, gestão financeira e estratégias para o setor. A formação prepara profissionais para atuar em cargos de gestão e administração em empresas agrícolas, cooperativas, agroindústrias e organizações relacionadas ao agronegócio.';
                 break;
                 case 'gestao ambiental':
-                    description = 'Gestão do Agronegócio: é focado na integração entre atividades produtivas e a preservação ambiental, este curso aborda estratégias para a gestão sustentável de recursos naturais, incluindo os utilizados na agricultura. A Gestão Ambiental habilita profissionais para atuar em empresas, órgãos governamentais e ONGs, promovendo práticas agrícolas responsáveis e contribuindo para a conservação dos ecossistemas.';
+                    description = 'Gestão do Ambiental: é focado na integração entre atividades produtivas e a preservação ambiental, este curso aborda estratégias para a gestão sustentável de recursos naturais, incluindo os utilizados na agricultura. A Gestão Ambiental habilita profissionais para atuar em empresas, órgãos governamentais e ONGs, promovendo práticas agrícolas responsáveis e contribuindo para a conservação dos ecossistemas.';
                     break;
                     case 'programacao':
             description = 'Programação: Tecnologia da informação para desenvolver soluções inovadoras que aumentem a eficiência do campo.';
