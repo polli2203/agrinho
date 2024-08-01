@@ -1,27 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 body {
-    font-family: Arial, sans-serif;
-    background-color: #9bd69b;
+    font-family:  "Crimson Text";
+    background-color: #a7ff95;
     color: #262424;
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
-.cabecalho{
-    background-color: #a3d9a5;
+.cabecalho {
+    background-color: #a7ff95;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.titulo{ 
+.titulo {
     color: #226424;
 }
 
-.escolhas{
+.escolhas {
     padding: 20px;
 }
 
-.option{
+.opcao {
     background-color: #4CAF50;
     color: #285a31;
     border: none;
@@ -32,15 +33,29 @@ body {
     transition: background-color 0.3s;
 }
 
-.option:hover {
-    background-color: #ade1b0;
+.opcoes{
+        background-color: #87ff57;
+        color: #000000;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        transition: background-color 0.3s;
+    }
+    
+    .opcoes:hover{
+        background-color: #b4ff96;
+        color: #000000;
+    }
+
+.opcao:hover {
+    background-color: #6ee73e;
 }
 
-.description {
-    background-color: #91ffa9;
+.descricao {
+    background-color: #b2fa82;
     border: 1px solid #000000;
-    border-radius: 5px;
-    padding: 20px;
-    margin-top: 20px;
+    border-radius: 20px;
+    padding: 60px;
+    margin-top: 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
