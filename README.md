@@ -1,4 +1,6 @@
 # agrinho
+Este projeto tem o intuito de informar as profissões e cursos que podem auxiliar no trabalho do campo, estimulando mais pessoas a cursarem cursos superiores.
+
 Créditos do trabalho:
 - Swith case: baseado na leitura feita no site MDN Web Docs ( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch )
 - Style botões: baseado na estética utiilizada no projeto missões ( https://github.com/polli2203/missao_polliana )
